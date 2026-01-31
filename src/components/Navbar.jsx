@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', minHeight: '72px' }}>
         <Link to="/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontWeight: 700, fontSize: '1.25rem', color: 'var(--color-primary-dark)', textDecoration: 'none' }} aria-label="Aggie Vet Home">
           <img src={logo} alt="" style={{ height: '48px', width: 'auto' }} />
-          <span>Aggie Vet</span>
+          <span>Aggie Veterinary Consult</span>
         </Link>
 
         {/* Desktop Menu */}
